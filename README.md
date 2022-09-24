@@ -30,6 +30,10 @@ Expense Tracker has State therefore there are values that have control over the 
 #### Custom Objects:
 - Transaction Modal
 
+### Adapts to your Mobile Phone Software
+
+With Flutter's introduction of Cupertino Style Widgets, Flutter Developers are now able to add adaptibility to their app based on the user's Phone Operating System.
+
 ## Version History
 #### Version 1.0.0
 - Remove Transactions 
