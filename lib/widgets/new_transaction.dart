@@ -1,5 +1,10 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:flutter/cupertino.dart';
+
+import '../widgets/adaptive_button.dart';
 
 //import './user_transaction.dart';
 
@@ -109,14 +114,7 @@ class _NewTransactionState extends State<NewTransaction> {
                         ),
                       ),
                     ),
-                    TextButton(
-                      style: ButtonStyle(
-                        foregroundColor:
-                            MaterialStateProperty.all<Color>(Colors.purple),
-                      ),
-                      child: Text('Select Date'),
-                      onPressed: _presentDatePicker,
-                    ),
+                    AdaptiveButton('Select Date', _presentDatePicker),
                   ],
                 ),
               ),
